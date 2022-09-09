@@ -14,3 +14,24 @@ setTimeout(()=>{
 
 console.log('Hello');
 console.log('hi');
+
+
+//promise example
+const getPromiseData =()=>{
+    const promise = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("Done !");
+        },1500);
+    })
+    return promise;
+}
+
+setTimeout(()=>{
+    console.log("Timer is at promise");
+    getPromiseData()
+    .then(text=>{
+        console.log(text);
+        return fetchData;
+    })
+})
+
