@@ -11,3 +11,11 @@ const personName = ({name, age})=>{
 
 console.log(personName(person));
 
+//destructuring array
+
+array = [1,2,3,4,5];
+
+const [arr1,arr2]=array;
+
+console.log(arr1, arr2);
+
