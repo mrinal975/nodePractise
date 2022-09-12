@@ -4,7 +4,16 @@ function greeter(name,age){
         console.log(message);
     }
 
+    return fdfd(){
+        console.log("hi");
+    }
+
 }
 
-var closureExample = greeter("Mallik",26);
+function fdfd(){
+    console.log(message);
+}
+
+
+let closureExample = greeter("Mallik",26);
 closureExample();
